@@ -1,0 +1,31 @@
+{
+  "name": "cdn-bench",
+  "description": "CLI to benchmark the speeds of CDN files over time.",
+  "homepage": "https://github.com/goldfire/node-cdn-bench",
+  "keywords": [
+    "cdn",
+    "benchmark",
+    "cdn benchmark",
+    "bench"
+  ],
+  "author": "James Simpson <james@goldfirestudios.com> (http://goldfirestudios.com)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goldfire/node-cdn-bench.git"
+  },
+  "main": "bench.js",
+  "version": "1.0.0",
+  "license": {
+    "type": "MIT",
+    "url": "https://raw.githubusercontent.com/goldfire/node-cdn-bench/master/LICENSE.md"
+  },
+  "dependencies": {
+    "request": ">0.0.1",
+    "colors": ">0.0.1",
+    "nomnom": ">0.0.1",
+    "fastsync": ">0.0.1"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ]
+}

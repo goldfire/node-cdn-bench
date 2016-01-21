@@ -1,16 +1,16 @@
 ## Description
-node-cdn-bench is a small CLI utility written with Node.js that allows for easy benchmarking of files, specifically to test the differences between content delivery networks. It allows you to specify an interval, length of the test and outputs the results to a CSV file.
+node-cdn-bench is a small CLI utility written with Node.js that allows for easy benchmarking of file downloads, specifically to test the differences between content delivery networks. It allows you to specify an interval, length of the test and outputs the results to a CSV file.
 
 ## Installation
 
 ```
-npm install node-cdn-bench
+npm install cdn-bench
 ```
 
 ## Usage
 
 ```bash
-node bench.js \
+node cdn-bench \
     --files [file1,file2,...] \
     --interval [seconds between tests] \
     --limit [number of iterations] \
@@ -20,7 +20,7 @@ node bench.js \
 The below command will download each listed file one at a time every 5 minutes for 24 hours.
 
 ```bash
-node bench.js \
+node cdn-bench \
     --files http://example.com/image.png,http://example.com/image2.png \
     --interval 300 \
     --limit 288 \
@@ -31,6 +31,6 @@ If you are running these tests on a virtual machine, it is recommend to pair it 
 
 ## License
 
-Copyright (c) 2014 James Simpson and GoldFire Studios, Inc.
+Copyright (c) 2014-2016 James Simpson and GoldFire Studios, Inc.
 
 Released under the MIT License.

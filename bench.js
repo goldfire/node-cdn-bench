@@ -2,7 +2,7 @@
  *  node-cdn-bench
  *  https://github.com/goldfire/node-cdn-bench
  *
- *  (c) 2014, James Simpson of GoldFire Studios
+ *  (c) 2014-2016, James Simpson of GoldFire Studios
  *  goldfirestudios.com
  *
  *  MIT License
@@ -16,7 +16,7 @@ var request = require('request'),
   opts = require('nomnom').parse();
 
 if (!opts.files || !opts.interval || !opts.limit) {
-  console.log("Usage: node bench.js --files [filename1,...] --interval [seconds] --limit [number] --out [output file]".yellow.bold);
+  console.log("Usage: node cdn-bench --files [filename1,...] --interval [seconds] --limit [number] --out [output file]".yellow.bold);
   return;
 }
 

@@ -14,7 +14,7 @@
     "url": "git://github.com/goldfire/node-cdn-bench.git"
   },
   "main": "bench.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": {
     "type": "MIT",
     "url": "https://raw.githubusercontent.com/goldfire/node-cdn-bench/master/LICENSE.md"
